@@ -1,13 +1,14 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+import CreateComponent from './Ceate_component'
+
 
 
 function App() {
  
   return (
     <>
-     <h1>Hello Tarikul</h1>
+    <CreateComponent />
     </>
   )
 }
