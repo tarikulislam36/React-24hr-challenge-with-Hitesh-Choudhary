@@ -12,14 +12,31 @@ function App() {
 
 
 function increment(){
+  // if(count < 30){
+  //   setCount(count + 1)
+
+
+  // }else{
+
+
+  //   console.log('You have reached the maximum value')
+  // }
+
   setCount(count + 1)
+  
   // setCount(prevCount => prevCount + 1) // This is the same as the line above`
 
 }
 
 function decrement(){
+// if(count > 0){    
+//   setCount(count - 1)
+// }else{
+//   console.log('You have reached the minimum value')
+// } 
 
-  setCount(count - 1)
+
+setCount(count - 1)
 }
 
   return (
